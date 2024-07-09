@@ -1,0 +1,3470 @@
+<!DOCTYPE html>
+		<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+		<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+		<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+		<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>Catamarca 360 2024 - Slider Revolution</title>
+			<meta name="description" content="Slider Revolution Example" />
+			<meta name="keywords" content="fullscreen image, grid layout, flexbox grid, transition" />
+			<meta name="author" content="ThemePunch" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<!-- LOAD JQUERY LIBRARY -->
+			<script src="jquery.js"></script>
+			
+			<!-- LOADING FONTS AND ICONS -->
+			<link href="https://fonts.googleapis.com/css?family=Roboto:400%2C500%2C900&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+
+			
+			<link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+			<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+			
+			<!-- REVOLUTION STYLE SHEETS -->
+			<link rel="stylesheet" type="text/css" href="css/rs6.css">
+			<!-- REVOLUTION LAYERS STYLES -->
+						<!-- REVOLUTION JS FILES -->
+			
+		<script>
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+					<script src="js/rbtools.min.js"></script>
+							<script src="js/rs6.min.js"></script>
+							
+			<script>function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+				try {
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) || (e.l=="fullwidth" || e.layout=="fullwidth") ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+					if(e.layout==="fullscreen" || e.l==="fullscreen")
+						newh = Math.max(e.mh,window.RSIH);
+					else{
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,
+							sl;
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}
+			//});
+		  };</script>
+
+			
+		</head>
+		
+		<body style="margin: 0px;">
+		
+
+			<!-- START Catamarca 360 2024 REVOLUTION SLIDER 6.5.25 --><p class="rs-p-wp-fix"></p>
+			<rs-module-wrap id="rev_slider_74_1_wrapper" data-alias="catamarca-360-2024" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;">
+				<rs-module id="rev_slider_74_1" style="" data-version="6.5.25">
+					<rs-slides>
+						<rs-slide style="position: absolute;" data-key="rs-581" data-title="Menu" data-in="o:0;" data-out="a:false;">
+							<img src="assets/transparent.png" alt="Menu" title="guiacatamarca poncho 360" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-581-layer-2" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-xy="x:20px;y:379px;"
+								data-text="w:normal;"
+								data-dim="w:336px;h:674px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-582;'
+								data-frame_999="o:0;st:w;sR:28700;"
+								data-frame_hover="bgc:rgba(0,0,0,0);boc:#66afff;iC:true;"
+								style="z-index:26;background-color:rgba(0,0,0,0);"
+							> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-7" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:642px;y:125px;"
+								data-text="w:normal;"
+								data-dim="w:696px;h:186px;"
+								data-frame_0="y:200%;sX:2;sY:2;o:1;rX:-20deg;rY:-20deg;"
+								data-frame_1="e:power3.out;st:720;sp:1000;sR:720;"
+								data-frame_999="o:0;st:w;sR:27280;"
+								style="z-index:15;"
+							><img src="assets/Cata-hermosa-logo.png" alt="" class="tp-rs-img" width="696" height="186" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-8" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1631px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="y:top;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:8;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-18" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-xy="x:398px;y:373px;"
+								data-text="w:normal;"
+								data-dim="w:344px;h:682px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-583;'
+								data-frame_999="o:0;st:w;sR:28700;"
+								data-frame_hover="bgc:rgba(0,0,0,0);boc:#66afff;iC:true;"
+								style="z-index:25;background-color:rgba(0,0,0,0);"
+							> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-19" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-xy="x:1162px;y:382px;"
+								data-text="w:normal;"
+								data-dim="w:365px;h:675px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-585;'
+								data-frame_999="o:0;st:w;sR:28700;"
+								data-frame_hover="bgc:rgba(0,0,0,0);boc:#66afff;iC:true;"
+								style="z-index:23;background-color:rgba(0,0,0,0);cursor:zoom-in;"
+							> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-33" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-xy="x:777px;y:377px;"
+								data-text="w:normal;"
+								data-dim="w:360px;h:674px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-584;'
+								data-frame_999="o:0;st:w;sR:28700;"
+								data-frame_hover="bgc:rgba(0,0,0,0);boc:#66afff;iC:true;"
+								style="z-index:24;background-color:rgba(0,0,0,0);"
+							> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-34" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-xy="x:1623px;y:524px;"
+								data-text="w:normal;"
+								data-dim="w:210px;h:41px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-590;'
+								data-frame_999="o:0;st:w;sR:28700;"
+								data-frame_hover="bgc:rgba(0,0,0,0);boc:#66afff;iC:true;"
+								style="z-index:9;background-color:rgba(0,0,0,0);"
+							> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-37" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:376px;h:1080px;"
+								data-frame_0="x:-175%;o:1;"
+								data-frame_0_mask="u:t;x:100%;"
+								data-frame_1="e:power3.out;st:20;sp:1000;sR:20;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:27980;"
+								style="z-index:10;"
+							><img src="assets/F-puna.png" alt="" class="tp-rs-img" width="376" height="1080" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-48" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-391px;y:b;"
+								data-text="w:normal;"
+								data-dim="w:387px;h:1080px;"
+								data-frame_0="x:-175%;o:1;"
+								data-frame_0_mask="u:t;x:100%;"
+								data-frame_1="e:power3.out;st:80;sp:1000;sR:80;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:27920;"
+								style="z-index:11;"
+							><img src="assets/F-oeste.png" alt="" class="tp-rs-img" width="387" height="1080" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-51" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:c;xo:-4px;"
+								data-text="w:normal;"
+								data-dim="w:387px;h:1080px;"
+								data-frame_0="sX:2;sY:2;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="e:power2.out;st:130;sp:1000;sR:130;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:27870;"
+								style="z-index:12;"
+							><img src="assets/F-captal.png" alt="" class="tp-rs-img" width="387" height="1080" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-53" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1149px;"
+								data-text="w:normal;"
+								data-dim="w:387px;h:1080px;"
+								data-frame_0="x:175%;o:1;"
+								data-frame_0_mask="u:t;x:-100%;"
+								data-frame_1="e:power3.out;st:70;sp:1000;sR:70;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:27930;"
+								style="z-index:13;"
+							><img src="assets/F-centro_.png" alt="" class="tp-rs-img" width="387" height="1080" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-54" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:r;xo:-2px;"
+								data-text="w:normal;"
+								data-dim="w:387px;h:1080px;"
+								data-frame_0="x:175%;o:1;"
+								data-frame_0_mask="u:t;x:-100%;"
+								data-frame_1="e:power3.out;st:20;sp:1000;sR:20;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:27980;"
+								style="z-index:14;"
+							><img src="assets/F-este.png" alt="" class="tp-rs-img" width="383" height="1080" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-57" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:110px;y:461px;"
+								data-text="w:normal;"
+								data-dim="w:134px;h:69px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1080;sp:1000;sR:1080;"
+								data-frame_999="o:0;st:w;sR:26920;"
+								style="z-index:16;"
+							><img src="assets/Puna.png" alt="" class="tp-rs-img" width="134" height="69" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-59" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:494px;y:459px;"
+								data-text="w:normal;"
+								data-dim="w:134px;h:68px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1080;sp:1000;sR:1080;"
+								data-frame_999="o:0;st:w;sR:26920;"
+								style="z-index:17;"
+							><img src="assets/oeste.png" alt="" class="tp-rs-img" width="134" height="68" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-61" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:867px;y:471px;"
+								data-text="w:normal;"
+								data-dim="w:149px;h:28px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1070;sp:1000;sR:1070;"
+								data-frame_999="o:0;st:w;sR:26930;"
+								style="z-index:18;"
+							><img src="assets/Capital.png" alt="" class="tp-rs-img" width="149" height="28" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-63" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1254px;y:462px;"
+								data-text="w:normal;"
+								data-dim="w:146px;h:75px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1080;sp:1000;sR:1080;"
+								data-frame_999="o:0;st:w;sR:26920;"
+								style="z-index:19;"
+							><img src="assets/Centro.png" alt="" class="tp-rs-img" width="146" height="75" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-64" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1664px;y:461px;"
+								data-text="w:normal;"
+								data-dim="w:134px;h:74px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1100;sp:1000;sR:1100;"
+								data-frame_999="o:0;st:w;sR:26900;"
+								style="z-index:20;"
+							><img src="assets/Este.png" alt="" class="tp-rs-img" width="134" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-66" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:r;y:-17px;"
+								data-text="w:normal;"
+								data-dim="w:1920px;h:132px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:21;"
+							><img src="assets/sombra-y-luz.png" alt="" class="tp-rs-img" width="1920" height="132" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-581-layer-69" 
+								data-type="shape"
+								data-rsp_ch="on"
+								data-xy="x:1546px;y:381px;"
+								data-text="w:normal;"
+								data-dim="w:365px;h:675px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-586;'
+								data-frame_999="o:0;st:w;sR:28700;"
+								data-frame_hover="bgc:rgba(0,0,0,0);boc:#66afff;iC:true;"
+								style="z-index:22;background-color:rgba(0,0,0,0);cursor:zoom-in;"
+							> 
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-582" data-title="Puna" data-in="o:0;" data-out="a:false;">
+							<img src="assets/antofagasta-4.jpg" alt="" title="antofagasta 4" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-582-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1275px;y:931px;"
+								data-text="w:normal;"
+								data-dim="w:192px;h:49px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-581;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:13;"
+							><img src="assets/volver-2.png" alt="" class="tp-rs-img" width="172" height="44" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-582-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1275px;y:276px;"
+								data-text="w:normal;"
+								data-dim="w:427px;h:626px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:10;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-582-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1275px;y:178px;"
+								data-text="w:normal;"
+								data-dim="w:426px;h:79px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:9;"
+							><img src="assets/Departamentos-cuadrado-puna.png" alt="" class="tp-rs-img" width="426" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-582-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:93px;y:88px;"
+								data-text="w:normal;"
+								data-dim="w:344px;h:91px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:11;"
+							><img src="assets/Cata-hermosa-logo-copia.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-582-layer-9" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1315px;y:324px;"
+								data-text="w:normal;"
+								data-dim="w:344px;h:194px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:18;"
+							><img src="assets/Altiplanicie-desertica-de-mas-de-3.000-m-de-altura-situada-en-l.png" alt="" class="tp-rs-img" width="344" height="194" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-582-layer-10" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:209px;y:619px;"
+								data-text="w:normal;"
+								data-dim="w:134px;h:69px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:19;"
+							><img src="assets/Puna-copia.png" alt="" class="tp-rs-img" width="134" height="69" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-582-layer-11" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:155px;y:258px;"
+								data-text="w:normal;"
+								data-dim="w:243px;h:320px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:20;"
+							><img src="assets/Capa-14.png" alt="" class="tp-rs-img" width="243" height="320" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-582-layer-12" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:531px;h:1080px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:8;"
+							><img src="assets/TIRA-ROJA-GRANDE.png" alt="" class="tp-rs-img" width="531" height="1080" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-582-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:201px;y:987px;"
+								data-text="w:normal;"
+								data-dim="w:130px;h:51px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:12;"
+							><img src="assets/CATAMARCA-GOBIERNO-copia.png" alt="" class="tp-rs-img" width="130" height="51" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-582-layer-49" 
+								class="rs-layer rev-btn"
+								href="antofagasta-piedra-pomez/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1341px;y:803px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:289px;h:45px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1960;sp:500;sR:1960;"
+								data-frame_999="o:0;st:w;sR:26540;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:17;background-color:#d10011;font-family:'Roboto';"
+							>360º - Campo de Piedra Pomez 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-582-layer-75" 
+								class="rs-layer rev-btn"
+								href="antofagasta-salar/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1341px;y:752px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:289px;h:45px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1730;sp:500;sR:1730;"
+								data-frame_999="o:0;st:w;sR:26770;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:16;background-color:#d10011;font-family:'Roboto';"
+							>360º - Salar de Antofalla 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-582-layer-80" 
+								class="rs-layer rev-btn"
+								href="antofagasta-dunas-del-penon/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1341px;y:700px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:289px;h:45px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1570;sp:500;sR:1570;"
+								data-frame_999="o:0;st:w;sR:26930;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:15;background-color:#d10011;font-family:'Roboto';"
+							>360º - Dunas del Peñon 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-582-layer-81" 
+								class="rs-layer rev-btn"
+								href="antofagasta-difunta-correa/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1341px;y:648px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:289px;h:45px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1370;sp:500;sR:1370;"
+								data-frame_999="o:0;st:w;sR:27130;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#d10011;font-family:'Roboto';"
+							>360º - Duna Difunta Correa 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-583" data-title="Oeste" data-in="o:0;" data-out="a:false;">
+							<img src="assets/slider-region-oeste.png" alt="" title="slider-region-oeste" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-583-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1276px;y:925px;"
+								data-text="w:normal;"
+								data-dim="w:186px;h:48px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-581;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:13;"
+							><img src="assets/volver-2.png" alt="" class="tp-rs-img" width="172" height="44" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1275px;y:179px;"
+								data-text="w:normal;"
+								data-dim="w:426px;h:79px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:10;"
+							><img src="assets/Departamentos-cuadrado.png" alt="" class="tp-rs-img" width="426" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:92px;y:85px;"
+								data-text="w:normal;"
+								data-dim="w:346px;h:92px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:11;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-13" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:152px;y:255px;"
+								data-text="w:normal;"
+								data-dim="w:247px;h:324px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:19;"
+							><img src="assets/Capa-15.png" alt="" class="tp-rs-img" width="247" height="324" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-14" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:208px;y:618px;"
+								data-text="w:normal;"
+								data-dim="w:134px;h:68px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:20;"
+							><img src="assets/oeste-1.png" alt="" class="tp-rs-img" width="134" height="68" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-15" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1315px;y:325px;"
+								data-text="w:normal;"
+								data-dim="w:344px;h:284px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:21;"
+							><img src="assets/Esta-region-es-atravesada-por-la-emblematica-Ruta-Nacional-40-q.png" alt="" class="tp-rs-img" width="344" height="284" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-16" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1301px;y:765px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:182px;h:40px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-590;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2000;sp:500;sR:2000;"
+								data-frame_999="o:0;st:w;sR:26500;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:18;background-color:#ff3a2d;font-family:'Roboto';"
+							>Belén 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-17" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1301px;y:824px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:182px;h:40px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-591;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2170;sp:500;sR:2170;"
+								data-frame_999="o:0;st:w;sR:26330;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:17;background-color:#ff3a2d;font-family:'Roboto';"
+							>Andalgalá 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-20" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1493px;y:824px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:182px;h:40px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-589;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2190;sp:500;sR:2190;"
+								data-frame_999="o:0;st:w;sR:26310;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:16;background-color:#ff3a2d;font-family:'Roboto';"
+							>Pomán 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-21" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1396px;y:708px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:182px;h:40px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-597;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1860;sp:500;sR:1860;"
+								data-frame_999="o:0;st:w;sR:26640;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:15;background-color:#ff3a2d;font-family:'Roboto';"
+							>Tinogasta 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-22" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1274px;y:285px;"
+								data-text="w:normal;"
+								data-dim="w:426px;h:625px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:201px;y:987px;"
+								data-text="w:normal;"
+								data-dim="w:130px;h:51px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:12;"
+							><img src="assets/CATAMARCA-GOBIERNO-copia.png" alt="" class="tp-rs-img" width="130" height="51" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-24" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:531px;h:1080px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:8;"
+							><img src="assets/Capa-11.png" alt="" class="tp-rs-img" width="531" height="1080" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-583-layer-44" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1493px;y:765px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:182px;h:40px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-633;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1990;sp:500;sR:1990;"
+								data-frame_999="o:0;st:w;sR:26510;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#ff3a2d;font-family:'Roboto';"
+							> Santa Maria 
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-584" data-title="Capital" data-in="o:0;" data-out="a:false;">
+							<img src="assets/la-catedral-iluminada-2.jpg" alt="" title="la-catedral-iluminada 2" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-584-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1273px;y:921px;"
+								data-text="w:normal;"
+								data-dim="w:172px;h:44px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-581;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:15;"
+							><img src="assets/volver-2.png" alt="" class="tp-rs-img" width="172" height="44" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-584-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1274px;y:285px;"
+								data-text="w:normal;"
+								data-dim="w:426px;h:625px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:11;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-584-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1273px;y:178px;"
+								data-text="w:normal;"
+								data-dim="w:426px;h:79px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:9;"
+							><img src="assets/Departamentos-1.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-584-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:90px;y:85px;"
+								data-text="w:normal;"
+								data-dim="w:350px;h:93px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:12;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-584-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:201px;y:987px;"
+								data-text="w:normal;"
+								data-dim="w:130px;h:51px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:13;"
+							><img src="assets/CATAMARCA-GOBIERNO-copia.png" alt="" class="tp-rs-img" width="130" height="51" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-584-layer-25" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:531px;h:1080px;"
+								data-frame_999="o:0;st:w;"
+								style="z-index:8;"
+							><img src="assets/franja-capi.png" alt="" class="tp-rs-img" width="531" height="1080" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-584-layer-26" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:207px;y:627px;"
+								data-text="w:normal;"
+								data-dim="w:149px;h:28px;"
+								data-frame_999="o:0;st:w;"
+								style="z-index:19;"
+							><img src="assets/Capital-1.png" alt="" class="tp-rs-img" width="149" height="28" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-584-layer-27" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:152px;y:256px;"
+								data-text="w:normal;"
+								data-dim="w:247px;h:324px;"
+								data-frame_999="o:0;st:w;"
+								style="z-index:10;"
+							><img src="assets/mapa-cat-capital.png" alt="" class="tp-rs-img" width="247" height="324" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-584-layer-28" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1304px;y:314px;"
+								data-text="w:normal;"
+								data-dim="w:366px;h:245px;"
+								data-frame_999="o:0;st:w;"
+								style="z-index:20;"
+							><img src="assets/La-multiplicidad-de-paisajes-acompanados-de-una-riqueza-histor.png" alt="" class="tp-rs-img" width="344" height="230" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-584-layer-46" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1366px;y:802px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:242px;h:44px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-596;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1860;sp:500;sR:1860;"
+								data-frame_999="o:0;st:w;sR:26640;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:16;background-color:#efa700;font-family:'Roboto';"
+							>Capital - SFVC 
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-585" data-title="Centro" data-in="o:0;" data-out="a:false;">
+							<img src="assets/El-Rodeo-Catamarca-Ambato-2.jpg" alt="" title="El Rodeo Catamarca Ambato" width="1210" height="669" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-585-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1274px;y:920px;"
+								data-text="w:normal;"
+								data-dim="w:172px;h:44px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-581;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:18;"
+							><img src="assets/volver-2.png" alt="" class="tp-rs-img" width="172" height="44" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1276px;y:286px;"
+								data-text="w:normal;"
+								data-dim="w:421px;h:617px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:10;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1275px;y:179px;"
+								data-text="w:normal;"
+								data-dim="w:425px;h:79px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:9;"
+							><img src="assets/Departamentos-2.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:91px;y:86px;"
+								data-text="w:normal;"
+								data-dim="w:350px;h:93px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:11;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:199px;y:985px;"
+								data-text="w:normal;"
+								data-dim="w:138px;h:54px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2060;sp:500;sR:2060;"
+								data-frame_999="o:0;st:w;sR:26440;"
+								style="z-index:12;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-29" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:323px;"
+								data-text="w:normal;"
+								data-dim="w:344px;h:194px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:19;"
+							><img src="assets/Esta-region-ofrece-las-mejores-tradiciones-gauchas-catamarquena.png" alt="" class="tp-rs-img" width="344" height="194" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-30" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:531px;h:1080px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:8;"
+							><img src="assets/franja-region-centro.png" alt="" class="tp-rs-img" width="531" height="1080" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-31" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:151px;y:255px;"
+								data-text="w:normal;"
+								data-dim="w:247px;h:324px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:20;"
+							><img src="assets/mapa-cat-centro.png" alt="" class="tp-rs-img" width="247" height="324" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-32" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1297px;y:760px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:186px;h:44px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-592;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1940;sp:500;sR:1940;"
+								data-frame_999="o:0;st:w;sR:26560;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:17;background-color:#9cd34a;font-family:'Roboto';"
+							>Paclín 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-35" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1493px;y:760px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:186px;h:44px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-593;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1930;sp:500;sR:1930;"
+								data-frame_999="o:0;st:w;sR:26570;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:15;background-color:#9cd34a;font-family:'Roboto';"
+							>Fray M. Esquiu 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-36" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1493px;y:818px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:186px;h:44px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-588;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2060;sp:500;sR:2060;"
+								data-frame_999="o:0;st:w;sR:26440;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#9cd34a;font-family:'Roboto';"
+							>Valle Viejo 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-38" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1297px;y:818px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:186px;h:44px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-595;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2060;sp:500;sR:2060;"
+								data-frame_999="o:0;st:w;sR:26440;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:16;background-color:#9cd34a;font-family:'Roboto';"
+							>Capayán 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-39" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:209px;y:617px;"
+								data-text="w:normal;"
+								data-dim="w:146px;h:75px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:21;"
+							><img src="assets/Centro-copia.png" alt="" class="tp-rs-img" width="146" height="75" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-585-layer-47" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1367px;y:704px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:240px;h:44px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-634;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1770;sp:500;sR:1770;"
+								data-frame_999="o:0;st:w;sR:26730;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:13;background-color:#9cd34a;font-family:'Roboto';"
+							>Ambato 
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-586" data-title="Este" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Cascada-Salto-Chorro-Pozo-Hondo-Las-Juntas-Ancast-2-1.jpg" alt="" title="Cascada Salto Chorro Pozo Hondo Las Juntas Ancast 2" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-586-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1274px;y:920px;"
+								data-text="w:normal;"
+								data-dim="w:172px;h:44px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-581;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:17;"
+							><img src="assets/volver-2.png" alt="" class="tp-rs-img" width="172" height="44" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1274px;y:284px;"
+								data-text="w:normal;"
+								data-dim="w:426px;h:625px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:10;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1276px;y:177px;"
+								data-text="w:normal;"
+								data-dim="w:425px;h:79px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:9;"
+							><img src="assets/Departamentos-copia.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:90px;y:85px;"
+								data-text="w:normal;"
+								data-dim="w:348px;h:92px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:11;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:201px;y:985px;"
+								data-text="w:normal;"
+								data-dim="w:137px;h:54px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:12;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-40" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1315px;y:323px;"
+								data-text="w:normal;"
+								data-dim="w:345px;h:176px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:18;"
+							><img src="assets/Esta-Region-se-encuentra-al-Este-de-la-Sierra-del-Alto-Ancasti_.png" alt="" class="tp-rs-img" width="345" height="176" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-41" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1492px;y:760px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:185px;h:46px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-636;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:16;background-color:#009331;font-family:'Roboto';"
+							>El Alto 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-42" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1492px;y:820px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:185px;h:46px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-587;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1750;sp:500;sR:1750;"
+								data-frame_999="o:0;st:w;sR:26750;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:15;background-color:#009331;font-family:'Roboto';"
+							>La Paz 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-43" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1297px;y:820px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:185px;h:46px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-594;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1750;sp:500;sR:1750;"
+								data-frame_999="o:0;st:w;sR:26750;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#009331;font-family:'Roboto';"
+							>Ancasti 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-50" 
+								class="rev-btn"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1297px;y:760px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:185px;h:46px;minh:0px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-635;'
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:13;background-color:#009331;font-family:'Roboto';"
+							>Santa Rosa 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-74" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-text="w:normal;"
+								data-dim="w:531px;h:1080px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:8;"
+							><img src="assets/franja-region-este.png" alt="" class="tp-rs-img" width="531" height="1080" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-76" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:208px;y:618px;"
+								data-text="w:normal;"
+								data-dim="w:134px;h:74px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:19;"
+							><img src="assets/Este-copia.png" alt="" class="tp-rs-img" width="134" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-586-layer-86" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:151px;y:255px;"
+								data-text="w:normal;"
+								data-dim="w:247px;h:324px;"
+								data-frame_999="o:0;st:w;sR:28700;"
+								style="z-index:20;"
+							><img src="assets/mapa-cat-este-2.png" alt="" class="tp-rs-img" width="247" height="324" data-no-retina> 
+							</rs-layer><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-587" data-title="La Paz" data-in="o:0;" data-out="a:false;">
+							<img src="assets/l-apaz.jpg" alt="" title="l-apaz.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-587-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-586;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-587-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1325px;y:226px;"
+								data-text="w:normal;"
+								data-dim="w:497px;h:729px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-587-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1325px;y:117px;"
+								data-text="w:normal;"
+								data-dim="w:496px;h:92px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/1.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-587-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1439px;y:141px;"
+								data-text="w:nowrap;s:40;l:45;fw:900;a:center;"
+								data-dim="w:243px;h:50px;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:16;font-family:'Roboto';"
+							>La Paz 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-587-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:17;font-family:'Roboto';"
+							>El departamento La Paz es uno de los 16 departamentos que componen la Provincia de Catamarca, Argentina, ubicado en la región sud-este de la provincia, dista a 100 km de San Fernando del Valle de Catamarca, a 235 km de Córdoba y a 940 km de Buenos Aires. Con una superficie de 8149 km² es el cuarto más extenso de la provincia, y con una población de 23.262 habitantes. Su cabecera o capital y ciudad más grande es Recreo donde se concentran la mayoría de las industrias y eventos culturales más concurrentes.<br />
+<br />
+Limita al norte con la provincia de Santiago del Estero y el departamento El Alto, al oeste con los departamentos Ancasti y Capayàn, al sur con las provincias de La Rioja y Córdoba y al este con la provincia de Santiago del Estero. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-587-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:12;"
+							><img src="assets/Cata-hermosa-logo-copia.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-587-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:13;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-587-layer-52" 
+								class="rs-layer rev-btn"
+								href="lapaz-salinas/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1366px;y:839px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#009643;font-family:'Roboto';"
+							>360º -  Salinas Grandes 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-588" data-title="Valle Viejo" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Cuesta-El-Portezuelo_Caro-Cabrera-48.jpg" alt="" title="Cuesta-El-Portezuelo_Caro-Cabrera-48.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-588-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-585;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-588-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1328px;y:232px;"
+								data-text="w:normal;"
+								data-dim="w:488px;h:716px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-588-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1328px;y:119px;"
+								data-text="w:normal;"
+								data-dim="w:489px;h:91px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/2.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-588-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1478px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:16;font-family:'Roboto';"
+							>Valle Viejo 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-588-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:17;font-family:'Roboto';"
+							>Valle Viejo es uno de los 16 departamentos en los que se divide la provincia de Catamarca en Argentina. Está constituido por un único municipio homónimo y forma parte del aglomerado urbano Gran San Fernando del Valle de Catamarca.<br />
+<br />
+Catastralmente se divide en 10 distritos: San Isidro, Villa Dolores, Santa Rosa, Sumalao, Portezuelo, Polcos, Huaycama, Las Tejas, Los Puestos y Santa Cruz. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-588-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:82px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:12;"
+							><img src="assets/Cata-hermosa-logo-copia.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-588-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:13;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-588-layer-55" 
+								class="rs-layer rev-btn"
+								href="vv-portezuelo/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1362px;y:874px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1860;sp:500;sR:1860;"
+								data-frame_999="o:0;st:w;sR:26640;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:15;background-color:#75ce00;font-family:'Roboto';"
+							>360º - Hosteria Cuesta De El  Portezuelo 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-589" data-title="Pomán" data-in="o:0;" data-out="a:false;">
+							<img src="assets/poman.jpg" alt="" title="poman.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-589-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-583;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-589-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1330px;y:232px;"
+								data-text="w:normal;"
+								data-dim="w:487px;h:714px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-589-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1331px;y:117px;"
+								data-text="w:normal;"
+								data-dim="w:487px;h:90px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/4.png" alt="" class="tp-rs-img" width="426" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-589-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:17;font-family:'Roboto';"
+							>Pomán es un departamento de la provincia de Catamarca en Argentina que cuenta con 4859 km². Su población es de 10.776 hab. (Censo 2010, INDEC). Está ubicado en la falda Oeste de las Sierras de Ambato, a una altura que oscila entre 700 y 1600 m s. n. m..<br />
+<br />
+Administrativamente se divide en 9 distritos: Saujil, Rincón, Pomán, Siján, Joyango, San Miguel, Mutquín, Rosario de Colana y Colpes. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-589-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:12;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-589-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:13;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-589-layer-45" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1501px;y:156px;"
+								data-text="w:normal;s:39;fw:900;"
+								data-dim="w:204px;"
+								data-frame_999="o:0;st:w;"
+								style="z-index:18;font-family:'Roboto';"
+							>Pomán 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-589-layer-56" 
+								class="rs-layer rev-btn"
+								href="poman-cebila/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1363px;y:875px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#ef2b2b;font-family:'Roboto';"
+							>360º - Quebrada de la Cébila 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-590" data-title="Belén" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Shincal_Belen_Dalton-4.jpg" alt="" title="Shincal_Belen_Dalton-4.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-590-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-583;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-590-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1330px;y:232px;"
+								data-text="w:normal;"
+								data-dim="w:490px;h:719px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-590-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1328px;y:118px;"
+								data-text="w:normal;"
+								data-dim="w:493px;h:91px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/4.png" alt="" class="tp-rs-img" width="426" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-590-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1518px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:15;font-family:'Roboto';"
+							>Belén 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-590-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:16;font-family:'Roboto';"
+							>Belén es una ciudad de la provincia argentina de Catamarca, y capital del departamento Belén.<br />
+<br />
+Se ubica al sudoeste del departamento entre los km 4089 y 4092 de la Ruta Nacional 40, en un valle semiárido surcado por el Río Belén. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-590-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:10;"
+							><img src="assets/Cata-hermosa-logo-copia.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-590-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:11;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-590-layer-58" 
+								class="rs-layer rev-btn"
+								href="belen-shincal/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1370px;y:753px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:13;background-color:#ef2b2b;font-family:'Roboto';"
+							>360º - Londres Ruinas del Shincal 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-590-layer-77" 
+								class="rs-layer rev-btn"
+								href="belen-pozo-piedra/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1370px;y:804px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1740;sp:500;sR:1740;"
+								data-frame_999="o:0;st:w;sR:26760;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:12;background-color:#ef2b2b;font-family:'Roboto';"
+							>360º -  Pozo de Piedra 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-590-layer-83" 
+								class="rs-layer rev-btn"
+								href="belen-virgen/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1370px;y:856px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1910;sp:500;sR:1910;"
+								data-frame_999="o:0;st:w;sR:26590;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:12;background-color:#ef2b2b;font-family:'Roboto';"
+							>360º -  Virgen de Belen 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-591" data-title="Andalgalá" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Circuito-Cautiva-miradas_Aconquija_carocabreraph-10.jpg" alt="" title="Circuito-Cautiva-miradas_Aconquija_carocabreraph-10.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-591-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-583;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-591-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1324px;y:231px;"
+								data-text="w:normal;"
+								data-dim="w:494px;h:725px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-591-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1324px;y:120px;"
+								data-text="w:normal;"
+								data-dim="w:495px;h:92px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/4.png" alt="" class="tp-rs-img" width="426" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-591-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1486px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:16;font-family:'Roboto';"
+							>Andalgalá 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-591-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:17;font-family:'Roboto';"
+							>El departamento posee 4497 km² y limita al norte con el departamento Santa María, al este y nordeste con la provincia de Tucumán, al oeste con el departamento Belén y al sur con los departamentos de Ambato y Pomán.<br />
+<br />
+Administrativamente se divide en 14 distritos: Plaza, Malli 1º, Malli 2º, Villavil, Chaquiago, Minas Capillitas, Cóndor Huasi, Huachaschi, Huaco, Potrero, Amanao, Aconquija y Espinillo.<br />
+<br />
+Una de las versiones más aceptadas indica que el nombre proviene de la combinación de la palabra quichua "anta" que significa cobre y del nombre del cacique que dominaba la región a la llegada de los españoles, "Guala" o "Hualán". 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-591-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:12;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-591-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:13;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-591-layer-60" 
+								class="rs-layer rev-btn"
+								href="andalgala/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1366px;y:841px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#ef2b2b;font-family:'Roboto';"
+							>360º - Andalgala 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-592" data-title="Paclín" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Tuneles-La-Merced_Paclin_carocabreraph-35.jpg" alt="" title="Tuneles-La-Merced_Paclin_carocabreraph-35.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-592-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-585;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-592-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1327px;y:232px;"
+								data-text="w:normal;"
+								data-dim="w:489px;h:717px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-592-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1329px;y:114px;"
+								data-text="w:normal;"
+								data-dim="w:491px;h:91px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/2.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-592-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1517px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:16;font-family:'Roboto';"
+							>Paclín 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-592-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:17;font-family:'Roboto';"
+							>Paclín es un departamento de la provincia de Catamarca en Argentina. El departamento está constituido con un único municipio homónimo. Tiene una superficie de 985 km².<br />
+<br />
+Administrativamente se divide en 7 distritos: La Merced, Balcozna, Sumampa, Amadores, La Bajada, El Rosario y Paclín.<br />
+<br />
+El nombre del departamento proviene de la expresión en lengua cacán pakilingasta, en donde «pakilin» significa «costa partida en dos» y «gasta» es el sufijo genérico que refiere a «pueblo». 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-592-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:12;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-592-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:13;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-592-layer-62" 
+								class="rs-layer rev-btn"
+								href="paclin-balcozna/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1366px;y:841px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#7bce00;font-family:'Roboto';"
+							>360º -  Balcozna, El Saltón 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-593" data-title="Fray Mamerto Esquiú" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Dique-Pirquitas_FME_Z-producciones-15.jpg" alt="" title="Dique-Pirquitas_FME_Z-producciones-15.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-593-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-585;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-593-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1324px;y:228px;"
+								data-text="w:normal;"
+								data-dim="w:500px;h:734px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-593-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1324px;y:112px;"
+								data-text="w:normal;"
+								data-dim="w:500px;h:93px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/2.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-593-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1389px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:16;font-family:'Roboto';"
+							>Fray Mamerto Esquiú 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-593-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:17;font-family:'Roboto';"
+							>Fray Mamerto Esquiú es un departamento de la provincia de Catamarca en Argentina. El departamento está constituido por un único municipio homónimo.<br />
+<br />
+Se divide en 7 distritos: San José, San Antonio, El Hueco, La Tercena, La Carrera, Collagasta y Pomancillo.<br />
+<br />
+En varios puntos del departamento se han hallado evidencias de la presencia de comunidades pertenecientes a la cultura de la Aguada. Se trata de restos de cerámica, algunos vestigios de construcciones y un alero con pinturas rupestres. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-593-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:12;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-593-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:13;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-593-layer-65" 
+								class="rs-layer rev-btn"
+								href="fray-pirquitas/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1366px;y:821px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#7bce00;font-family:'Roboto';"
+							>360º - Dique Las Pirquitas 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-593-layer-84" 
+								class="rs-layer rev-btn"
+								href="fray-campanas/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1366px;y:881px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1740;sp:500;sR:1740;"
+								data-frame_999="o:0;st:w;sR:26760;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#7bce00;font-family:'Roboto';"
+							>360º - Campanas Del Rosario 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-594" data-title="Ancasti" data-in="o:0;" data-out="a:false;">
+							<img src="assets/La-Tunita_Ancasti_Carolina-Cabrera_17.jpg" alt="" title="La-Tunita_Ancasti_Carolina-Cabrera_17.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-594-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-586;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-594-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1327px;y:231px;"
+								data-text="w:normal;"
+								data-dim="w:497px;h:729px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-594-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1326px;y:121px;"
+								data-text="w:normal;"
+								data-dim="w:497px;h:92px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/1.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-594-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1500px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:16;font-family:'Roboto';"
+							>Ancasti 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-594-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:17;font-family:'Roboto';"
+							>Ancasti es un municipio del este de la provincia argentina de Catamarca, ubicado a 82 km al este de la capital provincial San Fernando del Valle de Catamarca. En esta localidad nacieron en 1873 Ramón S. Castillo, 25° presidente de la Nación Argentina entre 1942 y 1943, y en 1809 Eulalia Ares, que sería en 1862 la primera mujer gobernadora de Catamarca y de la historia argentina.<br />
+<br />
+El nombre en Quechua significa ‘nido de águilas’ La palabra ANCASTI tiene diversas aceptaciones, entre ellas se debe indicar que la de Pedro Bazán dice que debe proceder de la palabra CATA, falda o ladera del Cerro. AN CATA en vez de ANCASTE o ANCASTA, sería la ladera alta del Cerro. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-594-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:12;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-594-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:13;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-594-layer-67" 
+								class="rs-layer rev-btn"
+								href="ancasti-dique-de-ipizca/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1363px;y:883px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#139100;font-family:'Roboto';"
+							>360º - Dique de Ipizca 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-595" data-title="Capayán" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Bosque-de-Arrayanes_Capayan_verano_carocabreraph-32.jpg" alt="" title="Bosque-de-Arrayanes_Capayan_verano_carocabreraph-32.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-595-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-585;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-595-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1325px;y:231px;"
+								data-text="w:normal;"
+								data-dim="w:496px;h:728px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-595-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1324px;y:119px;"
+								data-text="w:normal;"
+								data-dim="w:500px;h:93px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/2.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-595-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1500px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:16;font-family:'Roboto';"
+							>Capayán 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-595-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:17;font-family:'Roboto';"
+							>Capayán es un departamento en la provincia de Catamarca en Argentina. Su nombre deriva de la antigua parcialidad pazioca ("diaguita") de los capayanes. El departamento tiene una superficie de 4284 km².<br />
+<br />
+Administrativamente se divide en 12 distritos: Capayán, Huillapima, Los Ángeles, Concepción, Colonia Nueva Coneta, Miraflores, San Pedro, Coneta, Colonia del Valle, Puestos del Sur, Chumbicha y Puestos del Norte. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-595-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:12;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-595-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:13;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-595-layer-68" 
+								class="rs-layer rev-btn"
+								href="capayan-iglesia/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1363px;y:881px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1860;sp:500;sR:1860;"
+								data-frame_999="o:0;st:w;sR:26640;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:15;background-color:#7bce00;font-family:'Roboto';"
+							>360º -  Iglesia San Pablo 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-596" data-title="SFVC" data-in="o:0;" data-out="a:false;">
+							<img src="assets/catedral_Carolina-Cabrera_Capital_27.jpg" alt="" title="catedral_Carolina-Cabrera_Capital_27.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-596-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-584;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:13;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-596-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1327px;y:231px;"
+								data-text="w:normal;"
+								data-dim="w:494px;h:725px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-596-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1326px;y:115px;"
+								data-text="w:normal;"
+								data-dim="w:497px;h:92px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/3.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-596-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1375px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:18;font-family:'Roboto';"
+							>San Fernando del Valle 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-596-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:281px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:19;font-family:'Roboto';"
+							>San Fernando del Valle de Catamarca, oficialmente Ciudad de San Fernando del Valle de Catamarca, es la capital de la provincia argentina de Catamarca y la ciudad cabecera de su departamento Capital. Se trata de un centro comercial y turístico. Además cuenta con una activa vida cultural, que se desarrolla en su universidad, instituciones y museos.<br />
+<br />
+Se encuentra a orillas del río del Valle y al pie de la Sierra de Ambato y de la Sierra de Ancasti, tiene 399 km² y se halla a 550 msnm.​ Cuenta con 159.139 habitantes. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-596-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:10;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-596-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2330;sp:500;sR:2330;"
+								data-frame_999="o:0;st:w;sR:26170;"
+								style="z-index:11;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-596-layer-70" 
+								class="rs-layer rev-btn"
+								href="capital-pueblo-perdido/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:817px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2240;sp:500;sR:2240;"
+								data-frame_999="o:0;st:w;sR:26260;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:17;background-color:#ed9e00;font-family:'Roboto';"
+							>360º - Pueblo Perdido 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-596-layer-71" 
+								class="rs-layer rev-btn"
+								href="capital-predio/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:872px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2360;sp:500;sR:2360;"
+								data-frame_999="o:0;st:w;sR:26140;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:12;background-color:#ed9e00;font-family:'Roboto';"
+							>360º - Predio Ferial 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-596-layer-78" 
+								class="rs-layer rev-btn"
+								href="capital-jumeal/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:761px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2120;sp:500;sR:2120;"
+								data-frame_999="o:0;st:w;sR:26380;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#ed9e00;font-family:'Roboto';"
+							>360º - Dique Jumeal 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-596-layer-79" 
+								class="rs-layer rev-btn"
+								href="capital-catedral/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:654px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1860;sp:500;sR:1860;"
+								data-frame_999="o:0;st:w;sR:26640;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:16;background-color:#ed9e00;font-family:'Roboto';"
+							>360º - Catedral Basilica  
+							</a><!--
+
+							--><a
+								id="slider-74-slide-596-layer-85" 
+								class="rs-layer rev-btn"
+								href="capital-gruta/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:708px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:2000;sp:500;sR:2000;"
+								data-frame_999="o:0;st:w;sR:26500;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:15;background-color:#ed9e00;font-family:'Roboto';"
+							>360º - La Gruta 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-597" data-title="Tinogasta" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Iglesia-de-Andacollo_Tinogasta_Carolina-Cabrera_03.jpg" alt="" title="Iglesia-de-Andacollo_Tinogasta_Carolina-Cabrera_03.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-597-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-583;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-597-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1325px;y:231px;"
+								data-text="w:normal;"
+								data-dim="w:491px;h:720px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-597-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1325px;y:117px;"
+								data-text="w:normal;"
+								data-dim="w:496px;h:92px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/4.png" alt="" class="tp-rs-img" width="426" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-597-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1482px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:16;font-family:'Roboto';"
+							>Tinogasta 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-597-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:17;font-family:'Roboto';"
+							>Tinogasta es uno de los 16 departamentos en los que se divide la provincia de Catamarca en Argentina.<br />
+<br />
+Administrativamente se divide en 12 distritos: Tinogasta, Fiambalá, Saujil, El Puesto, La Puntilla, San José, Copacabana, Costa de Reyes, Anillaco, Salado, Cerro Negro, Colorado. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-597-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:12;"
+							><img src="assets/Cata-hermosa-logo-copia-1.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-597-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:13;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-597-layer-72" 
+								class="rs-layer rev-btn"
+								href="tinogasta-saujil/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:817px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1860;sp:500;sR:1860;"
+								data-frame_999="o:0;st:w;sR:26640;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:15;background-color:#ef2b2b;font-family:'Roboto';"
+							>360º - Dunas de Saujil 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-597-layer-73" 
+								class="rs-layer rev-btn"
+								href="tinogasta-termas/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:872px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:14;background-color:#ef2b2b;font-family:'Roboto';"
+							>360º - Fiambala Termas 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-633" data-title="Santa María" data-in="o:0;" data-out="a:false;">
+							<img src="assets/santa-maria.jpg" alt="" title="santa-maria.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-633-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-583;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:14;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-633-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1330px;y:232px;"
+								data-text="w:normal;"
+								data-dim="w:490px;h:719px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-633-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1328px;y:118px;"
+								data-text="w:normal;"
+								data-dim="w:493px;h:91px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/4.png" alt="" class="tp-rs-img" width="426" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-633-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1465px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:15;font-family:'Roboto';"
+							>Santa María 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-633-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:16;font-family:'Roboto';"
+							>Santa María es la ciudad capital del departamento homónimo, en el centro este de la provincia argentina de Catamarca; sobre la margen derecha del río Santa María; a 332 km de la capital provincial San Fernando del Valle de Catamarca.<br />
+<br />
+También es considerada la capital de los Valles Calchaquíes. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-633-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:10;"
+							><img src="assets/Cata-hermosa-logo-copia.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-633-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:11;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-633-layer-58" 
+								class="rs-layer rev-btn"
+								href="santamaria-colores/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:874px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:13;background-color:#ef2b2b;font-family:'Roboto';"
+							>360º - Cerro de Los Colores 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-634" data-title="Ambato" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Las-Juntas_ambato_Lepe-Olmedo-3.jpg" alt="" title="Las-Juntas_ambato_Lepe-Olmedo-3.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-634-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-585;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:13;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-634-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1330px;y:232px;"
+								data-text="w:normal;"
+								data-dim="w:490px;h:719px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-634-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1328px;y:118px;"
+								data-text="w:normal;"
+								data-dim="w:493px;h:92px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/2.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-634-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1504px;y:142px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:14;font-family:'Roboto';"
+							>Ambato 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-634-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:15;font-family:'Roboto';"
+							>A solo media hora en vehículo desde la ciudad capital se llega a Ambato. Este departamento cuenta con un microclima húmedo, ideal para escaparse de la capital en verano, ya que su temperatura anual media es de 18ºC.<br />
+<br />
+Etimológicamente, Ambato deriva del quechua Hamppatu o Ampatu, que significa “Cerro Sapo”, según Lafone Quevedo, y la cabecera departamental es la localidad de La Puerta.          
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-634-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:10;"
+							><img src="assets/Cata-hermosa-logo-copia.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-634-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:11;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-634-layer-58" 
+								class="rs-layer rev-btn"
+								href="ambato-rodeo/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:875px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1770;sp:500;sR:1770;"
+								data-frame_999="o:0;st:w;sR:26730;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:12;background-color:#7bce00;font-family:'Roboto';"
+							>360º - El Rodeo 
+							</a><!--
+
+							--><a
+								id="slider-74-slide-634-layer-82" 
+								class="rs-layer rev-btn"
+								href="ambato-las-juntas/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:817px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:12;background-color:#7bce00;font-family:'Roboto';"
+							>360º - Las Juntas 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-635" data-title="Santa Rosa" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Dique-La-Canada_Alijilan_Sta-Rosa_carocabreraph-20.jpg" alt="" title="Dique-La-Canada_Alijilan_Sta-Rosa_carocabreraph-20.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-635-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-586;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:13;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-635-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1330px;y:232px;"
+								data-text="w:normal;"
+								data-dim="w:490px;h:719px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-635-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1328px;y:118px;"
+								data-text="w:normal;"
+								data-dim="w:493px;h:92px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/1.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-635-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1471px;y:141px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:14;font-family:'Roboto';"
+							>Santa Rosa 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-635-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:15;font-family:'Roboto';"
+							>El departamento Santa Rosa alberga el municipio Los Altos. Esta localidad, es agrícola ganadera que se encuentra ubicada a 78 km aproximadamente de la Ciudad Capital, sustentando su economía en la producción agropecuaria del cultivo de soja, maíz, tabaco, citrus y arándanos. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-635-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:10;"
+							><img src="assets/Cata-hermosa-logo-copia.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-635-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:11;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-635-layer-58" 
+								class="rs-layer rev-btn"
+								href="santarosa-canas/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:876px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:12;background-color:#139100;font-family:'Roboto';"
+							>360º - Ciudad de Las Cañas 
+							</a><!--
+-->						</rs-slide>
+						<rs-slide style="position: absolute;" data-key="rs-636" data-title="El Alto" data-in="o:0;" data-out="a:false;">
+							<img src="assets/Dique-Collagasta_El-Alto_caro-cabrera-15.jpg" alt="" title="Dique-Collagasta_El-Alto_caro-cabrera-15.jpg" width="1920" height="1080" class="rev-slidebg tp-rs-img" data-bg="f:contain;" data-no-retina>
+<!--
+							--><rs-layer
+								id="slider-74-slide-636-layer-0" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1313px;y:971px;"
+								data-text="w:normal;"
+								data-dim="w:222px;h:74px;"
+								data-actions='o:click;a:jumptoslide;slide:rs-586;'
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="st:1000;sp:1000;sR:1000;"
+								data-frame_999="o:0;st:w;sR:27000;"
+								style="z-index:13;"
+							><img src="assets/volver1.png" alt="" class="tp-rs-img" width="222" height="74" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-636-layer-1" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1330px;y:232px;"
+								data-text="w:normal;"
+								data-dim="w:490px;h:719px;"
+								data-frame_0="y:bottom;"
+								data-frame_1="sp:1000;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:9;"
+							><img src="assets/Rectangulo-blanco-cuadrado-copia.png" alt="" class="tp-rs-img" width="426" height="625" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-636-layer-3" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:1328px;y:118px;"
+								data-text="w:normal;"
+								data-dim="w:493px;h:92px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:420;sp:1000;sR:420;"
+								data-frame_999="o:0;st:w;sR:27580;"
+								style="z-index:8;"
+							><img src="assets/1.png" alt="" class="tp-rs-img" width="425" height="79" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-636-layer-4" 
+								data-type="text"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1514px;y:141px;"
+								data-text="w:normal;s:39;l:45;fw:900;a:center;"
+								data-frame_0="x:-100%;"
+								data-frame_0_mask="u:t;"
+								data-frame_1="sp:1000;"
+								data-frame_1_mask="u:t;"
+								data-frame_999="o:0;st:w;sR:28000;"
+								style="z-index:14;font-family:'Roboto';"
+							>El Alto 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-636-layer-5" 
+								data-type="text"
+								data-color="#000000"
+								data-rsp_ch="on"
+								data-xy="x:1379px;y:297px;"
+								data-text="w:normal;"
+								data-dim="w:396px;"
+								data-frame_0="sX:0.9;sY:0.9;"
+								data-frame_1="e:power2.inOut;st:990;sp:1000;sR:990;"
+								data-frame_999="o:0;st:w;sR:27010;"
+								style="z-index:15;font-family:'Roboto';"
+							>El Departamento El Alto se encuentra ubicado al Este de la Provincia sobre una importante porción de la continuidad de las Sierras de Ancasti, a unos 81 km aproximadamente de la ciudad Capital. <br />
+<br />
+La Villa El Alto se encuentra situada a 950 m.s.n.m, es la cabecera del Departamento.<br />
+<br />
+También es considerada la capital de los Valles Calchaquíes. 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-636-layer-6" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:83px;y:52px;"
+								data-text="w:normal;"
+								data-dim="w:436px;h:116px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1390;sp:500;sR:1390;"
+								data-frame_999="o:0;st:w;sR:27110;"
+								style="z-index:10;"
+							><img src="assets/Cata-hermosa-logo-copia.png" alt="" class="tp-rs-img" width="347" height="92" data-no-retina> 
+							</rs-layer><!--
+
+							--><rs-layer
+								id="slider-74-slide-636-layer-23" 
+								data-type="image"
+								data-rsp_ch="on"
+								data-xy="x:71px;y:960px;"
+								data-text="w:normal;"
+								data-dim="w:196px;h:77px;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1800;sp:500;sR:1800;"
+								data-frame_999="o:0;st:w;sR:26700;"
+								style="z-index:11;"
+							><img src="assets/CATAMARCA-GOBIERNO.png" alt="" class="tp-rs-img" width="196" height="77" data-no-retina> 
+							</rs-layer><!--
+
+							--><a
+								id="slider-74-slide-636-layer-58" 
+								class="rs-layer rev-btn"
+								href="elalto-chorro/slider.html" target="_self"
+								data-type="button"
+								data-color="#ffffff"
+								data-rsp_ch="on"
+								data-xy="x:1364px;y:876px;"
+								data-text="w:normal;s:17;l:40;fw:500;a:center;"
+								data-dim="w:419px;minh:0px;"
+								data-padding="r:25;l:25;"
+								data-frame_0="rY:360deg;"
+								data-frame_1="e:back.out;st:1630;sp:500;sR:1630;"
+								data-frame_999="o:0;st:w;sR:26870;"
+								data-frame_hover="bgc:#005fbf;bor:25px,25px,25px,25px;bri:120%;"
+								style="z-index:12;background-color:#139100;font-family:'Roboto';"
+							>360º - El Chorro 
+							</a><!--
+-->						</rs-slide>
+					</rs-slides>
+				</rs-module>
+				<script>
+					
+				</script>
+<script>
+		if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
+</script>
+			</rs-module-wrap>
+			<!-- END REVOLUTION SLIDER -->
+
+				<script>
+					var	tpj = jQuery;
+					if(window.RS_MODULES === undefined) window.RS_MODULES = {};
+					if(RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+					RS_MODULES.modules["revslider741"] = {once: RS_MODULES.modules["revslider741"]!==undefined ? RS_MODULES.modules["revslider741"].once : undefined, init:function() {
+						window.revapi74 = window.revapi74===undefined || window.revapi74===null || window.revapi74.length===0  ? document.getElementById("rev_slider_74_1") : window.revapi74;
+						if(window.revapi74 === null || window.revapi74 === undefined || window.revapi74.length==0) { window.revapi74initTry = window.revapi74initTry ===undefined ? 0 : window.revapi74initTry+1; if (window.revapi74initTry<20) requestAnimationFrame(function() {RS_MODULES.modules["revslider741"].init()}); return;}
+						window.revapi74 = jQuery(window.revapi74);
+						if(window.revapi74.revolution==undefined){ revslider_showDoubleJqueryError("rev_slider_74_1"); return;}
+						revapi74.revolutionInit({
+								revapi:"revapi74",
+								DPR:"dpr",
+								sliderLayout:"fullscreen",
+								duration:29000,
+								visibilityLevels:"1240,1024,778,480",
+								gridwidth:1920,
+								gridheight:1080,
+								spinner:"spinner0",
+								perspective:600,
+								perspectiveType:"local",
+								editorheight:"1080,768,960,720",
+								responsiveLevels:"1240,1024,778,480",
+								stopAtSlide:1,
+								stopAfterLoops:0,
+								stopLoop:true,
+								progressBar:{disableProgressBar:true},
+								navigation: {
+									keyboardNavigation:true,
+									mouseScrollNavigation:false,
+									wheelCallDelay:1000,
+									onHoverStop:false
+								},
+								viewPort: {
+									global:false,
+									globalDist:"-200px",
+									enable:false,
+									visible_area:"20%"
+								},
+								fallbacks: {
+									allowHTML5AutoPlayOnAndroid:true
+								},
+						});
+						
+					}} // End of RevInitScript
+					if (window.RS_MODULES.checkMinimal!==undefined) { window.RS_MODULES.checkMinimal();};
+				</script>
+
+
+
+<script type="text/javascript">window.RVS = window.RVS || {}; window.RVS.ENV = window.RVS.ENV || {}; window.RVS.ENV.TRANSITIONPACK_URL = "http://supranet.ar/carteleria/wp-content/plugins/revslider-transitionpack-addon/";</script>
+		</body>
+				</html>
+		
